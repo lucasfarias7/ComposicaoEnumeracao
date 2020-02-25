@@ -58,8 +58,7 @@ namespace Pratica
             int mes = int.Parse(mesano.Substring(3, 4));
             Console.WriteLine();
 
-            Console.WriteLine("Nome: "+trabalhador.Nome);
-            Console.WriteLine("Departamento: "+depart.NomeDepart);
+            Console.WriteLine(trabalhador);
             Console.WriteLine("Ganho para "+mesano+" foi: R$: "+trabalhador.Ganhos(mes, ano));
 
             Console.ReadKey();

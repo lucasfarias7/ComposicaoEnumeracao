@@ -65,5 +65,14 @@ namespace Pratica.Entities
 
             return salario; 
         }
+
+        public override string ToString()
+        {
+
+            return ""
+                + this.Nome
+                + ", Departamento: "
+                + this.departamento.NomeDepart;
+        }
     }
 }
